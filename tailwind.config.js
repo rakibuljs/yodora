@@ -12,6 +12,7 @@ module.exports = {
         secondary: "#FFB84C",
         lightgray: "#F6F6F6",
       },
+      container: { padding: "96px", center: true },
     },
   },
   plugins: [],
