@@ -5,7 +5,7 @@ import Link from "next/link";
 import Menu from "@/public/menu.svg";
 const Navigation = () => {
   return (
-    <nav className="flex items-center justify-between">
+    <nav className="flex items-center justify-between md:pt-[32px] pt-4">
       <div className="flex items-center gap-x-8">
         <Image
           src={Logo}

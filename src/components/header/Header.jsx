@@ -3,7 +3,7 @@ import Navigation from "./Navigation";
 
 const Header = () => {
   return (
-    <header className="md:container md:pt-[32px] max-w-7xl px-4 pt-4">
+    <header className="md:container max-w-7xl px-4 ">
       <Navigation />
       <Hero />
     </header>
