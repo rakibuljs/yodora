@@ -6,6 +6,10 @@ import icons5 from "@/public/hero/icons5.png";
 import feature1 from "@/public/feature/card1.png";
 import feature2 from "@/public/feature/card2.png";
 import feature3 from "@/public/feature/card3.png";
+import free from "@/public/creator/free.svg";
+import earn from "@/public/creator/earn.svg";
+import autonomy from "@/public/creator/autonomy.svg";
+import engagement from "@/public/creator/engagement.svg";
 export const navItems = [
   { title: "Explore", id: 1, path: "/explore" },
   { title: "Company", id: 2, path: "/company" },
@@ -29,3 +33,29 @@ export const featureDetails = {
   users: "12.1k",
   sessions: "9.11k",
 };
+export const creatorItems = [
+  {
+    id: 13,
+    title: "Engagement",
+    description: "Engage on a deeper level with the fans that matter most",
+    image: engagement,
+  },
+  {
+    id: 15,
+    title: "Autonomy",
+    description: "Full autonomy on when and who you talk to",
+    image: autonomy,
+  },
+  {
+    id: 16,
+    title: "Free",
+    description: "No monthly fees or annual subscription fees",
+    image: free,
+  },
+  {
+    id: 17,
+    title: "Earn",
+    description: "Add a new source of income that you can control",
+    image: earn,
+  },
+];

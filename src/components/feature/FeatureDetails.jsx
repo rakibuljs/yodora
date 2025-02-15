@@ -3,7 +3,7 @@ import { featureDetails } from "@/constans";
 import Image from "next/image";
 const FeatureDetails = () => {
   return (
-    <div className="flex justify-between flex-col lg:flex-row items-center gap-y-[88px] lg:gap-y-0">
+    <div className="flex justify-between flex-col lg:flex-row items-center gap-y-[88px] lg:gap-y-0 lg:pb-[64px]">
       <div className="grid lg:grid-cols-3 grid-cols-1 lg:gap-x-[114px] gap-y-[16px] ">
         <div>
           <h2 className="text-secondary lg:text-[60px] font-bold leading-[80px] tracking-[-1.8px] text-[40px]">

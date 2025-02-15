@@ -4,7 +4,7 @@ import FeatureDetails from "./FeatureDetails";
 
 const Feature = () => {
   return (
-    <div className="bg-primary  w-full">
+    <div className="bg-primary w-full">
       <div className="md:container px-4 pt-[128px]">
         <div>
           <h2 className="lg:text-[72px] text-[30px] lg:font-bold font-medium lg:leading-[80px] leading-10 lg:tracking-[-1.8px] tracking-[-0.75px] text-secondary text-opacity-2 ">
