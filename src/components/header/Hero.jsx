@@ -10,11 +10,15 @@ const Hero = () => {
             Learn from your favorite creators about{" "}
             <span className="text-[#ffb74cd0]">fantasy reports</span>
           </h1>
-          <div className="flex md:items-center md:flex-row flex-col md:gap-x-[6px] md:pt-[19px] pt-[64px]">
+          <div className="flex md:items-center md:flex-row flex-col md:gap-x-[20px] md:pt-[19px] pt-[64px]">
             <ul className="flex  gap-x-0 md:gap-x-[-5px]">
               {heroItems.map((item) => (
-                <li>
-                  <Image src={item.image} alt="" />
+                <li key={item.id} className="-mr-4">
+                  <Image
+                    src={item.image}
+                    alt=""
+                    className="inline-block lg:h-[48px] lg:w-[48px] border border-white object-cover h-[40px] w-[40px] rounded-full outline-none"
+                  />
                 </li>
               ))}
             </ul>
@@ -26,7 +30,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="hidden border border-solid border-primary lg:flex items-center justify-center rounded-full w-52 h-52">
+        <div className="hidden border border-solid border-primary xl:flex items-center justify-center rounded-full xl:w-52 xl:h-52">
           <div className="bg-primary rounded-[164px] flex text-white justify-center items-center flex-col px-8 py-6">
             <p className="text-[48px] font-bold">1:1</p>
             <button className="text-md font-bold tracking-[-0.5px]">
