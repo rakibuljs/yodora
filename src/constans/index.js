@@ -59,3 +59,44 @@ export const creatorItems = [
     image: earn,
   },
 ];
+export const PricingItems = [
+  {
+    Colors: "#fff",
+    id: 18,
+    plan: "Personal",
+    price: "Free",
+    description: "Explore our product for free",
+    feature: [
+      "20 free fantasy reports",
+      "Limited access to AI-writer",
+      "max 15 hours per month",
+      "14 outreach tokens ",
+    ],
+  },
+  {
+    Colors: "#ffb84cff",
+    id: 19,
+    plan: "Professional",
+    price: "$20",
+    description: "For the ambitious solo professional",
+    feature: [
+      "50 free fantasy reports",
+      "Unlimited access to AI-writer",
+      "max 35 hours per month",
+      "72 free outreach tokens ",
+    ],
+  },
+  {
+    Colors: "#fff",
+    id: 19,
+    plan: "Team",
+    price: "$699",
+    description: "Licenses for up to 16 members",
+    feature: [
+      "1200 free fantasy reports",
+      "Access to AI-writer M2",
+      "Unlimited hours per month",
+      "435 outreach tokens",
+    ],
+  },
+];
