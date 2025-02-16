@@ -10,6 +10,14 @@ import free from "@/public/creator/free.svg";
 import earn from "@/public/creator/earn.svg";
 import autonomy from "@/public/creator/autonomy.svg";
 import engagement from "@/public/creator/engagement.svg";
+import testimonial8 from "@/public/testimonial/testimonial8.webp";
+import testimonial7 from "@/public/testimonial/testimonial7.webp";
+import testimonial6 from "@/public/testimonial/testimonial6.webp";
+import testimonial5 from "@/public/testimonial/testimonial5.webp";
+import testimonial10 from "@/public/testimonial/testimonial10.webp";
+import testimonial2 from "@/public/testimonial/testimonial2.webp";
+import testimonial3 from "@/public/testimonial/testimonial3.webp";
+import testimonial1 from "@/public/testimonial/testimonial1.webp";
 export const navItems = [
   { title: "Explore", id: 1, path: "/explore" },
   { title: "Company", id: 2, path: "/company" },
@@ -106,5 +114,71 @@ export const PricingItems = [
       "Unlimited hours per month",
       "435 outreach tokens",
     ],
+  },
+];
+export const testimonials = [
+  {
+    program: "professional",
+    description:
+      "Yadora has been pivotal in helping me connect with others that share my same passions!",
+    image: testimonial7,
+    name: "Maria Sanchez",
+    title: "CEO & Founder at Creation LAB's",
+  },
+  {
+    program: "team",
+    description:
+      "Sharing my skills with clients around the world has never been easier. Very affordable solution for our team.",
+    image: testimonial6,
+    name: "Nick Ridley",
+    title: "Product lead at EducationWave",
+  },
+  {
+    program: "personal",
+    description:
+      "I love how easy and intuitive the platform is. Took me less than a day to get up and started!",
+    image: testimonial10,
+    name: "Asia Moore",
+    title: "Head of HR at inspireUSA",
+  },
+  {
+    program: "personal",
+    description:
+      "Having access to 50 free fantasy reports per month allows my small business to generate leads each month",
+    image: testimonial2,
+    name: "Tina Rodriguez",
+    title: "Tech lead at GE accelerator",
+  },
+  {
+    program: "team",
+    description:
+      "The free version of Yadora is generous with its offering and has helped fuel our business to new heights!",
+    image: testimonial3,
+    name: "Jai Ahuja",
+    title: "GForce Labs  trader & Founder",
+  },
+  {
+    program: "team",
+    description:
+      "Yadora’s Customer service has been very gracious in helping me navigate the platform. Loving it so far!",
+    image: testimonial1,
+    name: "Amy Young",
+    title: "Creative director at FertilityHealth",
+  },
+  {
+    program: "personal",
+    description:
+      "Getting my music business off the ground has been a breeze with the help of Yadora’s outreach accelerator.",
+    image: testimonial5,
+    name: "Tanner Hall",
+    title: "Musician and Solo-prenuer",
+  },
+  {
+    program: "team",
+    description:
+      "I wish i have known about this platform a year ago. The AI writer empowers our team to edit and revise their work easily.",
+    image: testimonial8,
+    name: "Diego Perez",
+    title: "Analyst at SimplyMade",
   },
 ];

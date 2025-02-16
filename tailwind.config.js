@@ -12,6 +12,16 @@ module.exports = {
         secondary: "#FFB84C",
         lightgray: "#F6F6F6",
       },
+      keyframes: {
+        "translate-x-reverse": {
+          from: { transform: "translateX(0%)" },
+          to: { transform: "translateX(-100%)" },
+        },
+      },
+      animation: {
+        "translate-x-reverse": "translate-x-reverse 30s linear infinite",
+        "translate-x-reverse-slowed": "translate-x-reverse 50s linear infinite",
+      },
       container: { padding: "96px", center: true },
     },
   },
