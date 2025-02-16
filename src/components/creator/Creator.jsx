@@ -13,7 +13,7 @@ const Creator = () => {
             Engage with your supporters and subscribers to sell your skills,
             knowledge and passions
           </p>
-          <button className="px-8 py-4 bg-primary rounded-2xl text-white lg:text-lg lg:mt-[40px] mt-8 text-sm font-medium">
+          <button className="px-8 py-4 bg-primary rounded-2xl text-white lg:text-lg lg:mt-[40px] mt-8 text-sm font-medium hover:bg-secondary transition-colors duration-500">
             Become a creator
           </button>
         </div>

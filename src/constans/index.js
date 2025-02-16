@@ -61,9 +61,12 @@ export const creatorItems = [
 ];
 export const PricingItems = [
   {
+    cta: "Start for free",
     Colors: "#fff",
     id: 18,
     plan: "Personal",
+    monthlyPrice: "Free",
+    yearlyPrice: "Free",
     price: "Free",
     description: "Explore our product for free",
     feature: [
@@ -74,10 +77,13 @@ export const PricingItems = [
     ],
   },
   {
+    cta: "Start creating",
     Colors: "#ffb84cff",
     id: 19,
     plan: "Professional",
-    price: "$20",
+    price: "",
+    monthlyPrice: "$20",
+    yearlyPrice: "$240",
     description: "For the ambitious solo professional",
     feature: [
       "50 free fantasy reports",
@@ -90,7 +96,9 @@ export const PricingItems = [
     Colors: "#fff",
     id: 19,
     plan: "Team",
-    price: "$699",
+    cta: "Sign up your team",
+    monthlyPrice: "$50",
+    yearlyPrice: "$600",
     description: "Licenses for up to 16 members",
     feature: [
       "1200 free fantasy reports",
