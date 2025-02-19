@@ -18,6 +18,9 @@ import testimonial10 from "@/public/testimonial/testimonial10.webp";
 import testimonial2 from "@/public/testimonial/testimonial2.webp";
 import testimonial3 from "@/public/testimonial/testimonial3.webp";
 import testimonial1 from "@/public/testimonial/testimonial1.webp";
+import facebook from "@/public/facebook.svg";
+import twitter from "@/public/twitter.svg";
+import instagram from "@/public/instagram.svg";
 export const navItems = [
   { title: "Explore", id: 1, path: "/explore" },
   { title: "Company", id: 2, path: "/company" },
@@ -180,5 +183,34 @@ export const testimonials = [
     image: testimonial8,
     name: "Diego Perez",
     title: "Analyst at SimplyMade",
+  },
+];
+export const footerItems = [
+  {
+    title: "About",
+    items: ["How it works", "company", "Help & Support"],
+  },
+  {
+    title: "For creators",
+    items: ["Getting paid", "Onboarding"],
+  },
+  {
+    title: "Learn",
+    items: ["Blog", "Career", "Affiliates"],
+  },
+  {
+    title: "Support",
+    items: ["Service status", "Cookies policy", "Privacy policy"],
+  },
+];
+export const LinkItems = [
+  {
+    image: facebook,
+  },
+  {
+    image: twitter,
+  },
+  {
+    image: instagram,
   },
 ];
