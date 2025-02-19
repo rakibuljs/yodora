@@ -7,7 +7,7 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "yodora",
+  title: "yodora buiseness website",
   description:
     "Engage with your supporters and subscribers to sell your skills, knowledge and passions with yodora",
 };
